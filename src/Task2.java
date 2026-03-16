@@ -15,7 +15,7 @@ public class Task2 {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        double sum = sum(arr, n);
+        double sum = sum(arr, 0);
         double average = sum / n;
         System.out.println(average);
     }
