@@ -1,21 +1,24 @@
 import java.util.Scanner;
 
 public class Task3 {
-    public static boolean isPrime(int n) {
-        int divisor = 2;
-        if (n <= 1) {
+    public static boolean isPrime(int n, int divisor) {
+        if (divisor == n) {
+            return true;
+        }
+        else if (n % divisor == 0) {
             return false;
         }
-        if (n % divisor == 0) {
-            return false;
-        }
-        return isPrime(divisor);
-
+        return isPrime(n,divisor+1);
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        System.out.println(isPrime(n) ? "Prime" : "Composite");
+        if (n<2) {
+            System.out.println("Not prime and not composite ");
+        }
+        else {
+            System.out.println(isPrime(n,2) ? "Prime" : "Composite");
+        }
     }
 }
