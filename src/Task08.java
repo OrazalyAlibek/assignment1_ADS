@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task8 {
+public class Task08 {
 
     public static boolean AllDigits(String s, int i) {
         if (i == s.length()) {

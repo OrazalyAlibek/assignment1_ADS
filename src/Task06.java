@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task6 {
+public class Task06 {
     public static int power(int a, int n) {
         if (a == 1 || n == 0) {
             return 1;

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task9 {
+public class Task09 {
     public static int Counter(String s, int start) {
         if (start == s.length()) {
             return 0;

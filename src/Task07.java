@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task7 {
+public class Task07 {
     public static void reverse(int[] arr, int start) {
         if (start == arr.length) {
             return;

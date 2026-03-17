@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task5 {
+public class Task05 {
     public static int fibonacci(int n) {
         if (n == 0 || n == 1) {
             return n;

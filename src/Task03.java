@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task3 {
+public class Task03 {
     public static boolean isPrime(int n, int divisor) {
         if (divisor == n) {
             return true;

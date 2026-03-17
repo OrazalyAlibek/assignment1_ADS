@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task010 {
+public class Task10 {
     public static int GCD(int a,int b) {
         if (b == 0) return a;
         return GCD(b,a % b);

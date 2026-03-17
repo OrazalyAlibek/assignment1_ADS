@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task4 {
+public class Task04 {
     public static int factorial(int n) {
         if (n == 1) return 1;
         return n * factorial(n-1);

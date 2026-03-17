@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task2 {
+public class Task02 {
     public static int sum(int[] arr, int i) {
         if (i == arr.length) {
             return 0;
